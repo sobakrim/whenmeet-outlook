@@ -42,7 +42,7 @@ function registerEmbeddedTimezones(calendar: ICAL.Component) {
     if (!value) continue
     const tzid = String(value)
     try {
-      ICAL.TimezoneService.register(tzid, new ICAL.Timezone({ component, tzid }))
+      ICAL.TimezoneService.register(component)
     } catch {
       // A duplicate timezone registration is harmless for this one-file import.
     }
