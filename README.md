@@ -2,7 +2,7 @@
 
 A privacy-oriented, open-source alternative to When2Meet. Participants can fill their availability automatically by selecting an Outlook/iCalendar `.ics` file, or select slots manually.
 
-The repository folder can still be named `whenmeet-outlook`; no rename is required.
+The repository folder can still be named `whenmeet-outlook`; no rename is required. 
 
 ## What it does
 
