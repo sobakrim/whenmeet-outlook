@@ -311,7 +311,7 @@ function MeetingPage({ shareCode }: { shareCode: string }) {
         <div className="notice privacy-notice"><strong>Private import:</strong> your .ics file is read only inside this browser. Event titles, descriptions, attendees and the file itself are never sent to Supabase. Only the free slots you save are uploaded.</div>
         {importedFile && <div className="imported-file">Imported: <strong>{importedFile}</strong></div>}
         <div className="person-row">
-          <label className="field name-field"><span>Your name</span><input value={name} onChange={(e) => setName(e.target.value)} placeholder="Said" /></label>
+          <label className="field name-field"><span>Your name</span><input value={name} onChange={(e) => setName(e.target.value)} placeholder="Your name" /></label>
           <button className="primary save-button" disabled={saving} onClick={save}>{saving ? 'Saving…' : 'Save availability'}</button>
         </div>
         {error && <div className="notice error">{error}</div>}
