@@ -104,7 +104,7 @@ function Home() {
         <form onSubmit={submit} className="create-form">
           <label className="field full">
             <span>Meeting title</span>
-            <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="ECCE September meeting" />
+            <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Meeting title" />
           </label>
           <label className="field">
             <span>From</span>
